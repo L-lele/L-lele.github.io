@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <title>turn_page</title>
 <link rel="stylesheet" type="text/css" href="style/turn.css">
-<script src="js/turn.js"></script>
 <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
 <script src="https://github.com/blasten/turn.js/blob/master/turn.js"></script>
 	
@@ -21,4 +20,13 @@
 	<div class="hard"></div>
 </div>
 </body>
+	<script>
+		$(document).ready(function(){
+  			$("#flipbook").turn({
+			width: 400,
+			height: 300,
+			autoCenter: true
+	});
+});
+	</script>
 </html>
