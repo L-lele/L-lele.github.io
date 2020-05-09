@@ -7,9 +7,9 @@
 
 .main{ 
  height: 100%;
- width: 100%; background:url('https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/stsci-h-p2001a-m-2000x1500_0.png?itok=46uW0QNp');
-  background-size: cover;
-  position: absolute;
+ width: 100%; 
+ background-color: #5cb3c7;
+ position: absolute;
 }
 
 header{
@@ -33,24 +33,4 @@ article{
   left: 0;
   right: 0;
   margin: auto;
-}
-
-nav{
-  width: 100%;
-  heigth: 100px;
-  font-size: 2em;
-  display: flex;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-nav .item{
-  width: 33%;
-  height: 100%;
-  margin: 10px;
-  text-decoration: none;
-  color: #fff;
 }
