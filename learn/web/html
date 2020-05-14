@@ -1,0 +1,19 @@
+Day-1 20200514 Thursday Cloudy
+
+1. Basic HTML and HTML5
+  1) h1, h2, p, lorem ipsum text, <!-- -->
+  2) H5 
+    header, footer, nav, video, article, section
+    <main>the main context of web page</main>
+  3) <img src="#" alt="replace text">
+      outer: <a href="#" target="_blank"></a> -- can be updated by JS by using "#" as a fixed link
+      inner: <a href="#id"></a>
+      embed, img embed
+   4) unordered lists: <ul><li></li>..</ul>
+      ordered lists: <ol><li></li>..</ol>
+   5) form
+      <form action="#">
+        <input type="text" placeholder="a text placeholder" required>
+        <button type="submit"></button>
+      </form>
+      
