@@ -1,5 +1,4 @@
-Day-1 20200514 Thursday Cloudy
-
+Day-1 20200514 Thursday overcast
 1. Basic HTML and HTML5
   1) h1, h2, p, lorem ipsum text, <!-- -->
   2) H5 
@@ -13,7 +12,28 @@ Day-1 20200514 Thursday Cloudy
       ordered lists: <ol><li></li>..</ol>
    5) form
       <form action="#">
-        <input type="text" placeholder="a text placeholder" required>
-        <button type="submit"></button>
+        textbox: <input type="text" placeholder="a text placeholder" required>
+        radio button: <label for="id"><input type="radio" name="item" id="id" checked>item1</label>
+        checkboxes: <label for="id"><input type="checkbox" name="item" id="id" checked>item1</label>
+        button: <button type="submit"></button>
       </form>
+      
+Day-2 20200515 Friday overcast
+    6) div: elements nested
+    7) HTML document type declaration: <!DOCTYPE HTML>
+        webpage description: <head>..</head> -- link, meta, title, style
+        webpage content: <body></body>
+2. Basic CSS
+  1) style: external, internal, inline
+  2) font-size, font-family
+    import external font family: <link>
+    font-family: item1, item2; // degrade use
+  3)width
+    border: border-color, border-style, border-width, border-radius:10px/50%
+    background-color
+  4) class: class="class1 class2"
+     id: unique
+     id>class
+  5) margin, padding, border, width
+     when margin is negative, the box wil fill the parent page
       
