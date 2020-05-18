@@ -36,4 +36,24 @@ Day-2 20200515 Friday overcast
      id>class
   5) margin, padding, border, width
      when margin is negative, the box wil fill the parent page
+  6) prority
+     inherit<class(ordered)<id<inline<!import
+  7) color
+     hex: #ffffff #fff
+     rgb: rgb(255, 255, 255)
+  8) CSS variable
+     define: --var: value; 
+     reference: var(--var, back-up value)
+     root define global variable
+  9) media query
+     @media(condition){}
+ 3. the Applied Visual Design Challenges
+  1) text:
+     text-align: justify/center/right/left(default)
+     <strong></strong> <u></u> <em></em> <s></s> 
+     <hr>
+  2) background-color: rgba();
+  3) box-shadow: x y blur spread color, ..;
+  4) opacity: [0,1]
+  
       
